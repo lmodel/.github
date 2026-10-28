@@ -24,7 +24,7 @@ The waves bring each repository to the list above, one repository at a time. A n
 
 | Repository | Models | `version` | Release |
 | --- | --- | --- | --- |
-| [slsa](https://github.com/lmodel/slsa) | SLSA specification; the reference | 1.2.0 | v0.6.0 |
+| [slsa](https://github.com/lmodel/slsa) | SLSA specification; the reference | 1.2.0 | v0.7.0 |
 | [gist](https://github.com/lmodel/gist) | gist, the Semantic Arts upper ontology | 14.1.0 | v0.5.0 |
 
 ### Wave 1: the evidence set
@@ -33,7 +33,7 @@ The models a supply-chain knowledge bundle cites as authorities: the workflow co
 
 | Repository | Models | `version` | Release |
 | --- | --- | --- | --- |
-| github-actions (new) | GitHub Actions workflow syntax, action metadata and repository rulesets | | |
+| [github-actions](https://github.com/lmodel/github-actions) | GitHub Actions workflow syntax, action metadata and repository rulesets | 2026-10-28 | v0.1.0 |
 | in-toto (new) | in-toto Attestation Framework | | |
 | [oscal](https://github.com/lmodel/oscal) | OSCAL | 1.2.1 | |
 | [spdx](https://github.com/lmodel/spdx) | SPDX | 3.0.1 | |
