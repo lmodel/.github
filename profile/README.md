@@ -25,7 +25,7 @@ The waves bring each repository to the list above, one repository at a time. A n
 | Repository | Models | `version` | Release |
 | --- | --- | --- | --- |
 | [slsa](https://github.com/lmodel/slsa) | SLSA specification; the reference | 1.2.0 | [v0.7.0](https://github.com/lmodel/slsa/releases/tag/v0.7.0) |
-| [gist](https://github.com/lmodel/gist) | gist, the Semantic Arts upper ontology | 14.1.0 | [v0.6.1](https://github.com/lmodel/gist/releases/tag/v0.6.1) |
+| [gist](https://github.com/lmodel/gist) | gist, the Semantic Arts upper ontology | 14.1.0 | [v0.6.2](https://github.com/lmodel/gist/releases/tag/v0.6.2) |
 
 ### Wave 1: the evidence set
 
@@ -33,11 +33,11 @@ The models a supply-chain knowledge bundle cites as authorities: the workflow co
 
 | Repository | Models | `version` | Release |
 | --- | --- | --- | --- |
-| [github-actions](https://github.com/lmodel/github-actions) | GitHub Actions workflow syntax, action metadata and repository rulesets | 2026-10-28 | [v0.1.1](https://github.com/lmodel/github-actions/releases/tag/v0.1.1) |
+| [github-actions](https://github.com/lmodel/github-actions) | GitHub Actions workflow syntax, action metadata and repository rulesets | 2026-10-28 | [v0.2.1](https://github.com/lmodel/github-actions/releases/tag/v0.2.1) |
 | in-toto (new) | in-toto Attestation Framework | | |
 | [oscal](https://github.com/lmodel/oscal) | Open Security Controls Assessment Language (OSCAL) | 1.2.3 | [v0.1.0](https://github.com/lmodel/oscal/releases/tag/v0.1.0) |
-| [spdx](https://github.com/lmodel/spdx) | SPDX | 3.0.1 | |
-| [nist-sp-800-218](https://github.com/lmodel/nist-sp-800-218) | NIST SP 800-218, Secure Software Development Framework | 1.1.0 | |
+| [spdx](https://github.com/lmodel/spdx) | SPDX | 3.0.1 | [v0.1.0](https://github.com/lmodel/spdx/releases/tag/v0.1.0) |
+| [nist-sp-800-218](https://github.com/lmodel/nist-sp-800-218) | NIST SP 800-218, Secure Software Development Framework | 1.1.0 | [v0.1.0](https://github.com/lmodel/nist-sp-800-218/releases/tag/v0.1.0) |
 
 ### Wave 2: the controls set
 
