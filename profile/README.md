@@ -24,7 +24,7 @@ The waves bring each repository to the list above, one repository at a time. A n
 
 | Repository | Models | `version` | Release |
 | --- | --- | --- | --- |
-| [slsa](https://github.com/lmodel/slsa) | SLSA specification; the reference | 1.2.0 | [v0.7.0](https://github.com/lmodel/slsa/releases/tag/v0.7.0) |
+| [slsa](https://github.com/lmodel/slsa) | SLSA specification; the reference | 1.2.0 | [v0.8.0](https://github.com/lmodel/slsa/releases/tag/v0.8.0) |
 | [gist](https://github.com/lmodel/gist) | gist, the Semantic Arts upper ontology | 14.1.0 | [v0.6.2](https://github.com/lmodel/gist/releases/tag/v0.6.2) |
 
 ### Wave 1: the evidence set
@@ -34,7 +34,7 @@ The models a supply-chain knowledge bundle cites as authorities: the workflow co
 | Repository | Models | `version` | Release |
 | --- | --- | --- | --- |
 | [github-actions](https://github.com/lmodel/github-actions) | GitHub Actions workflow syntax, action metadata and repository rulesets | 2026-10-28 | [v0.3.0](https://github.com/lmodel/github-actions/releases/tag/v0.3.0) |
-| [in-toto](https://github.com/lmodel/in-toto) | in-toto Attestation Framework: statement layer and vetted predicates | 1.2.0 | [v0.1.0](https://github.com/lmodel/in-toto/releases/tag/v0.1.0) |
+| [in-toto](https://github.com/lmodel/in-toto) | in-toto Attestation Framework: statement layer and vetted predicates | 1.2.0 | [v0.1.1](https://github.com/lmodel/in-toto/releases/tag/v0.1.1) |
 | [oscal](https://github.com/lmodel/oscal) | Open Security Controls Assessment Language (OSCAL) | 1.2.3 | [v0.1.2](https://github.com/lmodel/oscal/releases/tag/v0.1.2) |
 | [spdx](https://github.com/lmodel/spdx) | SPDX | 3.0.1 | [v0.1.0](https://github.com/lmodel/spdx/releases/tag/v0.1.0) |
 | [nist-sp-800-218](https://github.com/lmodel/nist-sp-800-218) | NIST SP 800-218, Secure Software Development Framework | 1.1.0 | [v0.1.1](https://github.com/lmodel/nist-sp-800-218/releases/tag/v0.1.1) |
@@ -48,8 +48,8 @@ Control catalogues, with `oscal` as their pivot.
 | [nist-sp-800-53](https://github.com/lmodel/nist-sp-800-53) | NIST SP 800-53 Rev. 5 controls and SP 800-53A assessment procedures | 5.2.0 | [v0.1.0](https://github.com/lmodel/nist-sp-800-53/releases/tag/v0.1.0) |
 | [nist-sp-800-171](https://github.com/lmodel/nist-sp-800-171) | NIST SP 800-171 Rev. 3 | 3.0.0 | [v0.1.0](https://github.com/lmodel/nist-sp-800-171/releases/tag/v0.1.0) |
 | [nist-csf-v2](https://github.com/lmodel/nist-csf-v2) | NIST Cybersecurity Framework 2.0 | 2.0.0 | [v0.1.0](https://github.com/lmodel/nist-csf-v2/releases/tag/v0.1.0) |
-| [cis-controls](https://github.com/lmodel/cis-controls) | CIS Controls | 8.1.2 | |
-| [iso27001](https://github.com/lmodel/iso27001) | ISO/IEC 27001 | 1.0.0 | |
+| [cis-controls](https://github.com/lmodel/cis-controls) | CIS Controls | 8.1.2 | [v0.2.0](https://github.com/lmodel/cis-controls/releases/tag/v0.2.0) |
+| [iso27001](https://github.com/lmodel/iso27001) | ISO/IEC 27001 | 2022/Amd 1:2024 | [v0.1.0](https://github.com/lmodel/iso27001/releases/tag/v0.1.0) |
 
 ### Wave 3: the threat and case set
 
@@ -57,8 +57,8 @@ Control catalogues, with `oscal` as their pivot.
 
 | Repository | Models | `version` | Release |
 | --- | --- | --- | --- |
-| [stix](https://github.com/lmodel/stix) | STIX 2.1 | | |
-| [attack](https://github.com/lmodel/attack) | MITRE ATT&CK | | |
+| [stix](https://github.com/lmodel/stix) | STIX 2.1 | 2.1 | [v0.1.0](https://github.com/lmodel/stix/releases/tag/v0.1.0) |
+| [attack](https://github.com/lmodel/attack) | MITRE ATT&CK | 20.0 | [v0.1.0](https://github.com/lmodel/attack/releases/tag/v0.1.0) |
 | uco-action, uco-analysis, uco-configuration, uco-core, uco-identity, uco-location, uco-marking, uco-master, uco-observable, uco-pattern, uco-role, uco-time, uco-tool, uco-types, uco-victim, uco-vocabulary | Unified Cyber Ontology | 1.1.0 | |
 
 ### Wave 4: the vocabularies
