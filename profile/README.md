@@ -65,14 +65,13 @@ Control catalogues, with `oscal` as their pivot.
 
 ### Vulnerability
 
-`vulnerability-core` goes first, because `cve`, `nist-nvd` and `kev-catalog` import it.
+`cve` goes first, because `nist-nvd` carries its CVSS module and `kev-catalog` maps to it. `vulnerability-core`, a shared base with no specification of its own, is archived.
 
 | Repository | Models | `version` | Release |
 | --- | --- | --- | --- |
-| [vulnerability-core](https://github.com/lmodel/vulnerability-core) | A shared base for vulnerability records | 1.0.0 | |
 | [cve](https://github.com/lmodel/cve) | CVE Record Format | 5.2.0 | |
-| [nist-nvd](https://github.com/lmodel/nist-nvd) | NIST National Vulnerability Database feeds | | |
-| [kev-catalog](https://github.com/lmodel/kev-catalog) | CISA Known Exploited Vulnerabilities Catalog | 1.0 | |
+| [nist-nvd](https://github.com/lmodel/nist-nvd) | NIST National Vulnerability Database feeds | 2.2.4 | |
+| [kev-catalog](https://github.com/lmodel/kev-catalog) | CISA Known Exploited Vulnerabilities Catalog | 2026-09-17 | |
 | [cwe](https://github.com/lmodel/cwe) | CWE | 7.3 | |
 | [capec](https://github.com/lmodel/capec) | CAPEC | | |
 | [d3fend](https://github.com/lmodel/d3fend) | MITRE D3FEND | | |
