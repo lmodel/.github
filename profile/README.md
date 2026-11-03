@@ -6,9 +6,9 @@ LinkML models of published specifications, standards and vocabularies. A worksho
 
 A project can pin a usable model, and adapt.
 
-The pattern is a [linkml-project-copier](https://github.com/linkml/linkml-project-copier) project (or sidecar), with same CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, AI_COVENANT, NOTICE, lint configuration, and Semantic-release. Each GitHub release carries `schema-<tag>-<name>.yaml`, its `.sha256` and build-provenance attestation.
+The pattern is a [linkml-project-copier](https://github.com/linkml/linkml-project-copier) project (or sidecar), with same CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, AI_COVENANT, NOTICE, lint configuration, and Semantic-release. Each GitHub release carries `schema-<tag>-<name>.yaml` with provenance.
 
-A [KTL](https://w3id.org/ktl/) sidecar, a librarian-written knowledge bundle and a knowledge website. Domain schema are [adapted](https://lokf.nolan-nichols.com/toolkit/adapt/). [slsa](https://github.com/lmodel/slsa) is the reference.
+A [KTL](https://w3id.org/ktl/) sidecar, a librarian-written knowledge bundle and a knowledge website. Domain schema are [adapted](https://lokf.nolan-nichols.com/toolkit/adapt/), and [slsa](https://github.com/lmodel/slsa) is the reference.
 
 ## Repositories
 
