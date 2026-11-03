@@ -4,9 +4,9 @@ LinkML models of published specifications, standards and vocabularies. A worksho
 
 ## What a usable model has
 
-A project can pin a usable model, [adapted](https://lokf.nolan-nichols.com/toolkit/adapt/) to a domain.
+A project can pin a usable model.
 
-The pattern is a [linkml-project-copier](https://github.com/linkml/linkml-project-copier) project (or sidecar), with same CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, AI_COVENANT, NOTICE, lint configuration, and Semantic-release. Each GitHub release carries `schema-<tag>-<name>.yaml` with provenance. A [KTL](https://w3id.org/ktl/) sidecar, a librarian-written knowledge bundle and a knowledge website. [slsa](https://github.com/lmodel/slsa) is the reference.
+The pattern is a [linkml-project-copier](https://github.com/linkml/linkml-project-copier) project (or sidecar), with same CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, AI_COVENANT, NOTICE, lint configuration, and Semantic-release. Each GitHub release carries `schema-<tag>-<name>.yaml` with provenance. A [KTL](https://w3id.org/ktl/) sidecar, a librarian-written knowledge bundle and a knowledge website. The bundle can be [adapted](https://lokf.nolan-nichols.com/toolkit/adapt/) to a domain, [slsa](https://github.com/lmodel/slsa) is the reference.
 
 ## Repositories
 
