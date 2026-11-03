@@ -1,14 +1,14 @@
 # lmodel
 
-LinkML models of published specifications, standards and vocabularies. lmodel is a workshop for LinkML patterns, all unofficial. Each model's address, `https://w3id.org/lmodel/<repository>`, redirects to documentation.
+LinkML models of published specifications, standards and vocabularies. A workshop for LinkML patterns, all unofficial. Each model's address, `https://w3id.org/lmodel/<repository>`, redirects to documentation.
 
 ## What a usable model has
 
 A project can pin a usable model, and adapt.
 
-The pattern is a [linkml-project-copier](https://github.com/linkml/linkml-project-copier) project (or sidecar), and the same CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, AI_COVENANT, NOTICE, and lint configuration. Semantic-release from a baseline tag. Each GitHub release carries `schema-<tag>-<name>.yaml`, its `.sha256` and a build-provenance attestation.
+The pattern is a [linkml-project-copier](https://github.com/linkml/linkml-project-copier) project (or sidecar), with same CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, AI_COVENANT, NOTICE, lint configuration, and Semantic-release. Each GitHub release carries `schema-<tag>-<name>.yaml`, its `.sha256` and build-provenance attestation.
 
-A [KTL](https://w3id.org/ktl/) sidecar at the current KTL release, a librarian-written knowledge bundle and a knowledge website. `just lokf-adapt` with named roots, `just lokf-adapt-check` in CI, and a README section. [slsa](https://github.com/lmodel/slsa) is the reference.
+A [KTL](https://w3id.org/ktl/) sidecar, a librarian-written knowledge bundle and a knowledge website. `just lokf-adapt` with named roots, `just lokf-adapt-check` in CI, and a README section. [slsa](https://github.com/lmodel/slsa) is the reference.
 
 ## Repositories
 
@@ -23,7 +23,7 @@ A new repository joins as needed.
 
 ### Evidence
 
-The models a supply-chain knowledge bundle cites as authorities: the workflow contract, the attestation container, assessment results, the SBOM and the secure development practices.
+The models a supply-chain knowledge bundle cites as authorities:  workflow contract, attestation container, assessment results, SBOM and secure development practices.
 
 | Repository | Models | `version` | Release |
 | --- | --- | --- | --- |
