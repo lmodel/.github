@@ -65,13 +65,13 @@ Control catalogues, with `oscal` as their pivot.
 
 ### Vulnerability
 
-`cve` goes first, because `nist-nvd` carries its CVSS module and `kev-catalog` maps to it. `vulnerability-core`, a shared base with no specification of its own, is archived.
+`cve` goes first, because `nist-nvd` carries its CVSS module and `kev-catalog` maps to it. `vulnerability-core`, a shared base with no specification of its own, was folded into them and deleted.
 
 | Repository | Models | `version` | Release |
 | --- | --- | --- | --- |
-| [cve](https://github.com/lmodel/cve) | CVE Record Format | 5.2.0 | |
-| [nist-nvd](https://github.com/lmodel/nist-nvd) | NIST National Vulnerability Database feeds | 2.2.4 | |
-| [kev-catalog](https://github.com/lmodel/kev-catalog) | CISA Known Exploited Vulnerabilities Catalog | 2026-09-17 | |
+| [cve](https://github.com/lmodel/cve) | CVE Record Format | 5.2.0 | [v0.1.0](https://github.com/lmodel/cve/releases/tag/v0.1.0) |
+| [nist-nvd](https://github.com/lmodel/nist-nvd) | NIST National Vulnerability Database feeds | 2.2.4 | [v0.1.0](https://github.com/lmodel/nist-nvd/releases/tag/v0.1.0) |
+| [kev-catalog](https://github.com/lmodel/kev-catalog) | CISA Known Exploited Vulnerabilities Catalog | 2026-09-17 | [v0.1.0](https://github.com/lmodel/kev-catalog/releases/tag/v0.1.0) |
 | [cwe](https://github.com/lmodel/cwe) | CWE | 7.3 | |
 | [capec](https://github.com/lmodel/capec) | CAPEC | | |
 | [d3fend](https://github.com/lmodel/d3fend) | MITRE D3FEND | | |
