@@ -17,7 +17,7 @@ A new repository joins as needed.
 | Repository | Models | `version` | Release |
 | --- | --- | --- | --- |
 | [slsa](https://github.com/lmodel/slsa) | SLSA specification; the reference | 1.2.0 | [v0.10.0](https://github.com/lmodel/slsa/releases/tag/v0.10.0) |
-| [gist](https://github.com/lmodel/gist) | gist, the Semantic Arts upper ontology | 14.1.0 | [v0.7.0](https://github.com/lmodel/gist/releases/tag/v0.7.0) |
+| [gist](https://github.com/lmodel/gist) | gist, the Semantic Arts upper ontology | 14.1.0 | [v0.7.1](https://github.com/lmodel/gist/releases/tag/v0.7.1) |
 
 ### Evidence
 
@@ -28,7 +28,7 @@ The models a supply-chain knowledge bundle cites as authorities:  workflow contr
 | [github-actions](https://github.com/lmodel/github-actions) | GitHub Actions workflow syntax, action metadata and repository rulesets | 2026-10-28 | [v0.5.0](https://github.com/lmodel/github-actions/releases/tag/v0.5.0) |
 | [in-toto](https://github.com/lmodel/in-toto) | in-toto Attestation Framework: statement layer and vetted predicates | 1.2.0 | [v0.3.0](https://github.com/lmodel/in-toto/releases/tag/v0.3.0) |
 | [oscal](https://github.com/lmodel/oscal) | Open Security Controls Assessment Language (OSCAL) | 1.2.3 | [v0.1.2](https://github.com/lmodel/oscal/releases/tag/v0.1.2) |
-| [spdx](https://github.com/lmodel/spdx) | SPDX | 3.0.1 | [v0.1.0](https://github.com/lmodel/spdx/releases/tag/v0.1.0) |
+| [spdx](https://github.com/lmodel/spdx) | SPDX | 3.0.1 | [v0.1.1](https://github.com/lmodel/spdx/releases/tag/v0.1.1) |
 | [nist-sp-800-218](https://github.com/lmodel/nist-sp-800-218) | NIST SP 800-218, Secure Software Development Framework | 1.1.0 | [v0.1.1](https://github.com/lmodel/nist-sp-800-218/releases/tag/v0.1.1) |
 
 ### Controls
@@ -39,8 +39,8 @@ Control catalogues, with `oscal` as their pivot.
 | --- | --- | --- | --- |
 | [nist-sp-800-53](https://github.com/lmodel/nist-sp-800-53) | NIST SP 800-53 Rev. 5 controls and SP 800-53A assessment procedures | 5.2.0 | [v0.1.0](https://github.com/lmodel/nist-sp-800-53/releases/tag/v0.1.0) |
 | [nist-sp-800-171](https://github.com/lmodel/nist-sp-800-171) | NIST SP 800-171 Rev. 3 | 3.0.0 | [v0.1.0](https://github.com/lmodel/nist-sp-800-171/releases/tag/v0.1.0) |
-| [nist-csf-v2](https://github.com/lmodel/nist-csf-v2) | NIST Cybersecurity Framework 2.0 | 2.0.0 | [v0.1.0](https://github.com/lmodel/nist-csf-v2/releases/tag/v0.1.0) |
-| [cis-controls](https://github.com/lmodel/cis-controls) | CIS Controls | 8.1.2 | [v0.2.0](https://github.com/lmodel/cis-controls/releases/tag/v0.2.0) |
+| [nist-csf-v2](https://github.com/lmodel/nist-csf-v2) | NIST Cybersecurity Framework 2.0 | 2.0.0 | [v0.2.0](https://github.com/lmodel/nist-csf-v2/releases/tag/v0.2.0) |
+| [cis-controls](https://github.com/lmodel/cis-controls) | CIS Controls | 8.1.2 | [v0.2.1](https://github.com/lmodel/cis-controls/releases/tag/v0.2.1) |
 | [iso27001](https://github.com/lmodel/iso27001) | ISO/IEC 27001 | 2022/Amd 1:2024 | [v0.1.0](https://github.com/lmodel/iso27001/releases/tag/v0.1.0) |
 
 ### Threat and Case
@@ -50,7 +50,7 @@ Control catalogues, with `oscal` as their pivot.
 | Repository | Models | `version` | Release |
 | --- | --- | --- | --- |
 | [stix](https://github.com/lmodel/stix) | STIX 2.1 | 2.1 | [v0.1.0](https://github.com/lmodel/stix/releases/tag/v0.1.0) |
-| [attack](https://github.com/lmodel/attack) | MITRE ATT&CK | 20.0 | [v0.1.0](https://github.com/lmodel/attack/releases/tag/v0.1.0) |
+| [attack](https://github.com/lmodel/attack) | MITRE ATT&CK | 20.0 | [v0.1.1](https://github.com/lmodel/attack/releases/tag/v0.1.1) |
 | [uco](https://github.com/lmodel/uco) | Unified Cyber Ontology | 1.5.0 | [v0.3.0](https://github.com/lmodel/uco/releases/tag/v0.3.0) |
 
 ### Vocabularies
@@ -65,14 +65,13 @@ Control catalogues, with `oscal` as their pivot.
 
 ### Vulnerability
 
-`vulnerability-core` goes first, because `cve`, `nist-nvd` and `kev-catalog` import it.
+`cve` goes first, because `nist-nvd` carries its CVSS module and `kev-catalog` maps to it. `vulnerability-core`, a shared base with no specification of its own, was folded into them and deleted.
 
 | Repository | Models | `version` | Release |
 | --- | --- | --- | --- |
-| [vulnerability-core](https://github.com/lmodel/vulnerability-core) | A shared base for vulnerability records | 1.0.0 | |
-| [cve](https://github.com/lmodel/cve) | CVE Record Format | 5.2.0 | |
-| [nist-nvd](https://github.com/lmodel/nist-nvd) | NIST National Vulnerability Database feeds | | |
-| [kev-catalog](https://github.com/lmodel/kev-catalog) | CISA Known Exploited Vulnerabilities Catalog | 1.0 | |
+| [cve](https://github.com/lmodel/cve) | CVE Record Format | 5.2.0 | [v0.1.0](https://github.com/lmodel/cve/releases/tag/v0.1.0) |
+| [nist-nvd](https://github.com/lmodel/nist-nvd) | NIST National Vulnerability Database feeds | 2.2.4 | [v0.1.0](https://github.com/lmodel/nist-nvd/releases/tag/v0.1.0) |
+| [kev-catalog](https://github.com/lmodel/kev-catalog) | CISA Known Exploited Vulnerabilities Catalog | 2026-09-17 | [v0.1.0](https://github.com/lmodel/kev-catalog/releases/tag/v0.1.0) |
 | [cwe](https://github.com/lmodel/cwe) | CWE | 7.3 | |
 | [capec](https://github.com/lmodel/capec) | CAPEC | | |
 | [d3fend](https://github.com/lmodel/d3fend) | MITRE D3FEND | | |
