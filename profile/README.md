@@ -72,8 +72,8 @@ Control catalogues, with `oscal` as their pivot.
 | [cve](https://github.com/lmodel/cve) | CVE Record Format | 5.2.0 | [v0.1.0](https://github.com/lmodel/cve/releases/tag/v0.1.0) |
 | [nist-nvd](https://github.com/lmodel/nist-nvd) | NIST National Vulnerability Database feeds | 2.2.4 | [v0.1.0](https://github.com/lmodel/nist-nvd/releases/tag/v0.1.0) |
 | [kev-catalog](https://github.com/lmodel/kev-catalog) | CISA Known Exploited Vulnerabilities Catalog | 2026-09-17 | [v0.1.0](https://github.com/lmodel/kev-catalog/releases/tag/v0.1.0) |
-| [cwe](https://github.com/lmodel/cwe) | CWE | 7.3 | |
-| [capec](https://github.com/lmodel/capec) | CAPEC | | |
+| [cwe](https://github.com/lmodel/cwe) | CWE | 5.0 | [v0.1.0](https://github.com/lmodel/cwe/releases/tag/v0.1.0) |
+| [capec](https://github.com/lmodel/capec) | CAPEC | 3.9 | [v0.1.0](https://github.com/lmodel/capec/releases/tag/v0.1.0) |
 | [d3fend](https://github.com/lmodel/d3fend) | MITRE D3FEND | | |
 | [ocsf](https://github.com/lmodel/ocsf) | Open Cybersecurity Schema Framework | 1.9.0-dev | |
 
