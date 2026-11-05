@@ -74,8 +74,8 @@ Control catalogues, with `oscal` as their pivot.
 | [kev-catalog](https://github.com/lmodel/kev-catalog) | CISA Known Exploited Vulnerabilities Catalog | 2026-09-17 | [v0.1.0](https://github.com/lmodel/kev-catalog/releases/tag/v0.1.0) |
 | [cwe](https://github.com/lmodel/cwe) | CWE | 5.0 | [v0.1.0](https://github.com/lmodel/cwe/releases/tag/v0.1.0) |
 | [capec](https://github.com/lmodel/capec) | CAPEC | 3.9 | [v0.1.0](https://github.com/lmodel/capec/releases/tag/v0.1.0) |
-| [d3fend](https://github.com/lmodel/d3fend) | MITRE D3FEND | | |
-| [ocsf](https://github.com/lmodel/ocsf) | Open Cybersecurity Schema Framework | 1.9.0-dev | |
+| [d3fend](https://github.com/lmodel/d3fend) | MITRE D3FEND | 1.6.0 | [v0.1.0](https://github.com/lmodel/d3fend/releases/tag/v0.1.0) |
+| [ocsf](https://github.com/lmodel/ocsf) | Open Cybersecurity Schema Framework | 1.9.0 | [v0.1.0](https://github.com/lmodel/ocsf/releases/tag/v0.1.0) |
 
 ### AI governance and Privacy
 
@@ -83,8 +83,8 @@ Control catalogues, with `oscal` as their pivot.
 
 | Repository | Models | `version` | Release |
 | --- | --- | --- | --- |
-| [nist-ai-100-1](https://github.com/lmodel/nist-ai-100-1) | NIST AI 100-1, AI Risk Management Framework 1.0 | 1.0.0 | |
-| [nist-ai-600-1](https://github.com/lmodel/nist-ai-600-1) | NIST AI 600-1, Generative AI Profile | 1.0.0 | |
+| [nist-ai-100-1](https://github.com/lmodel/nist-ai-100-1) | NIST AI 100-1, AI Risk Management Framework 1.0 | 1.0.0 | [v0.1.0](https://github.com/lmodel/nist-ai-100-1/releases/tag/v0.1.0) |
+| [nist-ai-600-1](https://github.com/lmodel/nist-ai-600-1) | NIST AI 600-1, Generative AI Profile | 1.0.0 | [v0.1.0](https://github.com/lmodel/nist-ai-600-1/releases/tag/v0.1.0) |
 | [nist-ai-rmf](https://github.com/lmodel/nist-ai-rmf) | NIST AI 100-1 and AI 600-1 together | 1.0.0 | |
 | [iso42001](https://github.com/lmodel/iso42001) | ISO/IEC 42001 | 1.0.0 | |
 | [iso22989](https://github.com/lmodel/iso22989) | ISO/IEC 22989 | 0.1.0 | |
