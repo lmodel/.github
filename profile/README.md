@@ -109,9 +109,7 @@ Control catalogues, with `oscal` as their pivot.
 | Repository | Models | `version` | Release |
 | --- | --- | --- | --- |
 | [mcp](https://github.com/lmodel/mcp) | Model Context Protocol | draft | |
-| [dspy](https://github.com/lmodel/dspy) | DSPy | 0.1.0 | |
 | [opa](https://github.com/lmodel/opa) | Open Policy Agent, in a fork | 0.1.0 | |
-| [mellea](https://github.com/lmodel/mellea) | Mellea, in a fork | 2026-05-26 | |
 
 ### Not models
 
