@@ -75,7 +75,7 @@ Control catalogues, with `oscal` as their pivot.
 | [cwe](https://github.com/lmodel/cwe) | CWE | 5.0 | [v0.1.0](https://github.com/lmodel/cwe/releases/tag/v0.1.0) |
 | [capec](https://github.com/lmodel/capec) | CAPEC | 3.9 | [v0.1.0](https://github.com/lmodel/capec/releases/tag/v0.1.0) |
 | [d3fend](https://github.com/lmodel/d3fend) | MITRE D3FEND | 1.6.0 | [v0.1.0](https://github.com/lmodel/d3fend/releases/tag/v0.1.0) |
-| [ocsf](https://github.com/lmodel/ocsf) | Open Cybersecurity Schema Framework | 1.9.0-dev | |
+| [ocsf](https://github.com/lmodel/ocsf) | Open Cybersecurity Schema Framework | 1.9.0 | [v0.1.0](https://github.com/lmodel/ocsf/releases/tag/v0.1.0) |
 
 ### AI governance and Privacy
 
