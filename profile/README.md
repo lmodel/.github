@@ -10,7 +10,7 @@ The pattern is a [linkml-project-copier](https://github.com/linkml/linkml-projec
 
 ## Repositories
 
-A new repository joins as needed. On 2026-11-07, 41 of the 42 models had a release with a schema asset, and the Release column names the newest.
+A new repository joins as needed. On 2026-11-07, all 42 models had a release with a schema asset, and the Release column names the newest.
 
 ### Reference
 
@@ -100,7 +100,7 @@ Control catalogues, with `oscal` as their pivot.
 | [fixp](https://github.com/lmodel/fixp) | FIX Performance Session Protocol | 1.0 | [v0.1.0](https://github.com/lmodel/fixp/releases/tag/v0.1.0) |
 | [common-domain-model](https://github.com/lmodel/common-domain-model) | FINOS Common Domain Model, in a fork | 8.0.0-dev.13 | [v0.1.0](https://github.com/lmodel/common-domain-model/releases/tag/v0.1.0) |
 | [calm](https://github.com/lmodel/calm) | FINOS Common Architecture Language Model, in a fork | 1.3 | [v0.1.3](https://github.com/lmodel/calm/releases/tag/v0.1.3) |
-| [fluxnova-bpm-platform](https://github.com/lmodel/fluxnova-bpm-platform) | FINOS Fluxnova BPM Platform, in a fork | 3.1.1 | |
+| [fluxnova-bpm-platform](https://github.com/lmodel/fluxnova-bpm-platform) | FINOS Fluxnova BPM Platform, in a fork | 3.1.1 | [v0.1.1](https://github.com/lmodel/fluxnova-bpm-platform/releases/tag/v0.1.1) |
 
 ### Agent tooling
 
