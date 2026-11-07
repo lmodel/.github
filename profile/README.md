@@ -102,14 +102,14 @@ Control catalogues, with `oscal` as their pivot.
 | [fixp](https://github.com/lmodel/fixp) | FIX Performance Session Protocol | 1.0 | [v0.1.0](https://github.com/lmodel/fixp/releases/tag/v0.1.0) |
 | [common-domain-model](https://github.com/lmodel/common-domain-model) | FINOS Common Domain Model, in a fork | 8.0.0-dev.13 | |
 | [calm](https://github.com/lmodel/calm) | FINOS Common Architecture Language Model, in a fork | 1.3 | [v0.1.1](https://github.com/lmodel/calm/releases/tag/v0.1.1) |
-| [fluxnova-bpm-platform](https://github.com/lmodel/fluxnova-bpm-platform) | FINOS Fluxnova BPM Platform, in a fork | 2.0.0-SNAPSHOT | |
+| [fluxnova-bpm-platform](https://github.com/lmodel/fluxnova-bpm-platform) | FINOS Fluxnova BPM Platform, in a fork | 3.1.1 | |
 
 ### Agent tooling
 
 | Repository | Models | `version` | Release |
 | --- | --- | --- | --- |
-| [mcp](https://github.com/lmodel/mcp) | Model Context Protocol | draft | |
-| [opa](https://github.com/lmodel/opa) | Open Policy Agent, in a fork | 0.1.0 | |
+| [mcp](https://github.com/lmodel/mcp) | Model Context Protocol | 2026-07-28 | |
+| [opa](https://github.com/lmodel/opa) | Open Policy Agent, in a fork | 1.22.2 | |
 
 ### Not models
 
