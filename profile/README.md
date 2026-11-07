@@ -108,7 +108,7 @@ Control catalogues, with `oscal` as their pivot.
 
 | Repository | Models | `version` | Release |
 | --- | --- | --- | --- |
-| [mcp](https://github.com/lmodel/mcp) | Model Context Protocol | 2026-07-28 | |
+| [mcp](https://github.com/lmodel/mcp) | Model Context Protocol | 2026-07-28 | [v0.1.0](https://github.com/lmodel/mcp/releases/tag/v0.1.0) |
 | [opa](https://github.com/lmodel/opa) | Open Policy Agent, in a fork | 1.22.2 | |
 
 ### Not models
