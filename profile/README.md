@@ -10,7 +10,7 @@ The pattern is a [linkml-project-copier](https://github.com/linkml/linkml-projec
 
 ## Repositories
 
-A new repository joins as needed. On 2026-11-07, 38 of the 42 models had a release, and the Release column names the newest.
+A new repository joins as needed. On 2026-11-07, 41 of the 42 models had a release with a schema asset, and the Release column names the newest.
 
 ### Reference
 
@@ -55,8 +55,6 @@ Control catalogues, with `oscal` as their pivot.
 
 ### Vocabularies
 
-`ucs-core` and `ucs-containers`, a use-case framework with no upstream, are set aside until a model needs them.
-
 | Repository | Models | `version` | Release |
 | --- | --- | --- | --- |
 | [collections](https://github.com/lmodel/collections) | Collections Ontology | 2.0 | [v0.2.1](https://github.com/lmodel/collections/releases/tag/v0.2.1) |
@@ -71,7 +69,7 @@ Control catalogues, with `oscal` as their pivot.
 | --- | --- | --- | --- |
 | [cve](https://github.com/lmodel/cve) | CVE Record Format | 5.2.0 | [v0.1.0](https://github.com/lmodel/cve/releases/tag/v0.1.0) |
 | [nist-nvd](https://github.com/lmodel/nist-nvd) | NIST National Vulnerability Database feeds | 2.2.4 | [v0.1.0](https://github.com/lmodel/nist-nvd/releases/tag/v0.1.0) |
-| [kev-catalog](https://github.com/lmodel/kev-catalog) | CISA Known Exploited Vulnerabilities Catalog | 2026-09-17 | [v0.1.0](https://github.com/lmodel/kev-catalog/releases/tag/v0.1.0) |
+| [kev-catalog](https://github.com/lmodel/kev-catalog) | CISA Known Exploited Vulnerabilities Catalog | 2026-09-17 | [v0.1.1](https://github.com/lmodel/kev-catalog/releases/tag/v0.1.1) |
 | [cwe](https://github.com/lmodel/cwe) | CWE | 5.0 | [v0.1.0](https://github.com/lmodel/cwe/releases/tag/v0.1.0) |
 | [capec](https://github.com/lmodel/capec) | CAPEC | 3.9 | [v0.1.0](https://github.com/lmodel/capec/releases/tag/v0.1.0) |
 | [d3fend](https://github.com/lmodel/d3fend) | MITRE D3FEND | 1.6.0 | [v0.1.0](https://github.com/lmodel/d3fend/releases/tag/v0.1.0) |
@@ -90,7 +88,7 @@ Control catalogues, with `oscal` as their pivot.
 | [iso22989](https://github.com/lmodel/iso22989) | ISO/IEC 22989 | 2022 | [v0.1.0](https://github.com/lmodel/iso22989/releases/tag/v0.1.0) |
 | [iso29100](https://github.com/lmodel/iso29100) | ISO/IEC 29100 | 2024 | [v0.1.0](https://github.com/lmodel/iso29100/releases/tag/v0.1.0) |
 | [dpv](https://github.com/lmodel/dpv) | Data Privacy Vocabulary | 2.3 | [v0.1.0](https://github.com/lmodel/dpv/releases/tag/v0.1.0) |
-| [ai-governance-framework](https://github.com/lmodel/ai-governance-framework) | FINOS AI Governance Framework, in a fork | v3 | [v0.1.0](https://github.com/lmodel/ai-governance-framework/releases/tag/v0.1.0) |
+| [ai-governance-framework](https://github.com/lmodel/ai-governance-framework) | FINOS AI Governance Framework, in a fork | v3 | [v0.1.1](https://github.com/lmodel/ai-governance-framework/releases/tag/v0.1.1) |
 
 ### Finance
 
@@ -100,16 +98,16 @@ Control catalogues, with `oscal` as their pivot.
 | [fix-orchestra](https://github.com/lmodel/fix-orchestra) | FIX Orchestra | 1.0, 1.1-rc3 | [v0.1.0](https://github.com/lmodel/fix-orchestra/releases/tag/v0.1.0) |
 | [fix-sbe](https://github.com/lmodel/fix-sbe) | FIX Simple Binary Encoding | 1.0 and 2.0-rc3 | [v0.1.0](https://github.com/lmodel/fix-sbe/releases/tag/v0.1.0) |
 | [fixp](https://github.com/lmodel/fixp) | FIX Performance Session Protocol | 1.0 | [v0.1.0](https://github.com/lmodel/fixp/releases/tag/v0.1.0) |
-| [common-domain-model](https://github.com/lmodel/common-domain-model) | FINOS Common Domain Model, in a fork | 8.0.0-dev.13 | |
-| [calm](https://github.com/lmodel/calm) | FINOS Common Architecture Language Model, in a fork | 1.3 | [v0.1.1](https://github.com/lmodel/calm/releases/tag/v0.1.1) |
-| [fluxnova-bpm-platform](https://github.com/lmodel/fluxnova-bpm-platform) | FINOS Fluxnova BPM Platform, in a fork | 2.0.0-SNAPSHOT | |
+| [common-domain-model](https://github.com/lmodel/common-domain-model) | FINOS Common Domain Model, in a fork | 8.0.0-dev.13 | [v0.1.0](https://github.com/lmodel/common-domain-model/releases/tag/v0.1.0) |
+| [calm](https://github.com/lmodel/calm) | FINOS Common Architecture Language Model, in a fork | 1.3 | [v0.1.3](https://github.com/lmodel/calm/releases/tag/v0.1.3) |
+| [fluxnova-bpm-platform](https://github.com/lmodel/fluxnova-bpm-platform) | FINOS Fluxnova BPM Platform, in a fork | 3.1.1 | |
 
 ### Agent tooling
 
 | Repository | Models | `version` | Release |
 | --- | --- | --- | --- |
-| [mcp](https://github.com/lmodel/mcp) | Model Context Protocol | draft | |
-| [opa](https://github.com/lmodel/opa) | Open Policy Agent, in a fork | 0.1.0 | |
+| [mcp](https://github.com/lmodel/mcp) | Model Context Protocol | 2026-07-28 | [v0.1.0](https://github.com/lmodel/mcp/releases/tag/v0.1.0) |
+| [opa](https://github.com/lmodel/opa) | Open Policy Agent, in a fork | 1.22.2 | [v0.1.0](https://github.com/lmodel/opa/releases/tag/v0.1.0) |
 
 ### Not models
 
