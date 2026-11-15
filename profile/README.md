@@ -12,6 +12,10 @@ The pattern is a [linkml-project-copier](https://github.com/linkml/linkml-projec
 
 A new repository joins as needed. On 2026-11-07, all 42 models had a release with a schema asset, and the Release column names the newest.
 
+### Main
+
+- [schema-sidecar](https://github.com/lmodel/schema-sidecar): an Agent Skill that puts a LinkML sidecar project inside any repository. Newest release [v0.5.1](https://github.com/lmodel/schema-sidecar/releases/tag/v0.5.1).
+
 ### Reference
 
 | Repository | Models | `version` | Release |
